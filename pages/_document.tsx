@@ -15,7 +15,7 @@ class MyDocument extends Document {
     return { ...initialProps };
   }
 
-  render() {
+  render(): JSX.Element {
     return (
       <Html lang="ru">
         <Head />
@@ -27,3 +27,5 @@ class MyDocument extends Document {
     );
   }
 }
+
+export default MyDocument;
